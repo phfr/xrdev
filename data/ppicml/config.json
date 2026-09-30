@@ -40,6 +40,7 @@
       "distance": 1200,
       "enableDynamicResolution": false,
       "targetFPS": 60,
+      "nodeLayout": "fa2_spectral_1",
       "resolutionScale": 1,
       "bloomMode": "selection",
       "bloomStrength": 0.25,
@@ -60,7 +61,7 @@
   "lastUsedPreset": "deff",
   "subsetBuilderLibrary": [],
   "openWindows": [],
-  "nodeLayout": "fa2_3",
+  "nodeLayout": "fa2_spectral_1",
   "tooltipFetchIdAttribute": "name",
   "edgeHighlightSettings": {
     "subsetEdgesOnly": false,
