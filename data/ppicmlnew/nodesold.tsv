@@ -1,0 +1,901 @@
+id	name	degree_n	type_a	type_simple_c	protein_id_c	transcript_id_c	metabolite_id_c
+0	CD79B	12	transcript	protein		3	
+1	LYPD4	1	bridge	protein			
+2	Glutathione	8	metabolite	metabolite			358
+3	L-Glutamyl-tRNA(Glu)	1	metabolite	metabolite			64
+4	HCLS1	3	transcript	protein		319	
+5	RNF150	0	transcript	protein		391	
+6	SMS	4	bridge	protein			
+7	PATL1	1	bridge	protein			
+8	N-Acetyl-4-O-acetylneuraminate	1	metabolite	metabolite			176
+9	SEPTIN2	2	bridge	protein			
+10	Thioredoxin disulfide	8	metabolite	metabolite			991
+11	ZNF711	0	transcript	protein		290	
+12	CYTH4	5	transcript	protein		153	
+13	TOR1A	1	bridge	protein			
+14	SYNE1	1	transcript	protein		366	
+15	FANCD2	4	protein	protein	85		
+16	IKZF1	8	protein,transcript	protein	377	425	
+17	L-Kynurenine	7	metabolite	metabolite			115
+18	IGKV1-5	9	transcript	protein		409	
+19	UBXN1	4	bridge	protein			
+20	ITGB2	16	protein	protein	492		
+21	CTP	6	metabolite	metabolite			237
+22	Hypoxanthine	5	metabolite	metabolite			1094
+23	CMP-N-acetylneuraminate	5	metabolite	metabolite			391
+24	IGFBP4	0	transcript	protein		253	
+25	Ferricytochrome b5	2	metabolite	metabolite			144
+26	Carnitine	2	metabolite	metabolite			770
+27	XAGE1B	2	protein	protein	922		
+28	Protein N6,N6,N6-trimethyl-L-lysine	2	metabolite	metabolite			732
+29	KRT37	3	protein	protein	166		
+30	C1QA	3	protein	protein			
+31	MAL2	1	protein,transcript	protein	315	358	
+32	LPCAT2	0	transcript	protein		182	
+33	SPIB	4	transcript	protein		102	
+34	12-Keto-leukotriene B4	0	metabolite	metabolite			313
+35	DDHD2	2	bridge	protein			
+36	OSER1	3	bridge	protein			
+37	COL4A5	5	transcript	protein		776	
+38	5'-Phosphoribosyl-N-formylglycinamide	1	metabolite	metabolite			31
+39	GAPDH	4	protein	protein	24		
+40	ADCY7	5	transcript	protein		116	
+41	PIGN	2	bridge	protein			
+42	4-(2-Amino-3-hydroxyphenyl)-2,4-dioxobutanoate	4	metabolite	metabolite			515
+43	N1-Acetylspermidine	2	metabolite	metabolite			0
+44	D-Glucose	8	metabolite	metabolite			32
+45	GEM	9	protein	protein	143		
+46	Prostaglandin H2	4	metabolite	metabolite			422
+47	IMP	1	metabolite	metabolite			896
+48	GRAP2	9	transcript	protein		270	
+49	CCDC74A	0	transcript	protein		14	
+50	N-Acetyl-9-O-acetylneuraminate	1	metabolite	metabolite			376
+51	SPN	3	transcript	protein		413	
+52	4-(2-Aminophenyl)-2,4-dioxobutanoate	3	metabolite	metabolite			433
+53	CDH6	0	transcript	protein		146	
+54	MTRF1L	2	bridge	protein			
+55	TMEM14B	6	protein	protein	97		
+56	N-Acetylneuraminic acid	15	metabolite	metabolite			1009
+57	SH3GL2	3	protein,transcript	protein	204	235	
+58	PRDX1	7	transcript	protein		177	
+59	Thiol	6	metabolite	metabolite			1021
+60	L-Homocysteine	5	metabolite	metabolite			121
+61	GPR17	7	protein	protein	168		
+62	MED10	2	protein	protein	95		
+63	CCR5	9	transcript	protein		869	
+64	RAB1A	2	bridge	protein			
+65	NELL2	6	protein	protein			
+66	Pyruvate	54	metabolite	metabolite			334
+67	THF-polyglutamate	2	metabolite	metabolite			726
+68	RAC2	1	transcript	protein		411	
+69	Psychosine	1	metabolite	metabolite			476
+70	3-Acetamidopropanal	2	metabolite	metabolite			898
+71	EVI2B	7	transcript	protein		205	
+72	BTK	4	transcript	protein		282	
+73	TBC1D24	1	transcript	protein		83	
+74	Putrescine	7	metabolite	metabolite			79
+75	NPC2	1	protein	protein	181		
+76	PIK3CG	9	transcript	protein		376	
+77	POMK	1	bridge	protein			
+78	2-Hydroxyphytanoyl-CoA	2	metabolite	metabolite			802
+79	BCAT1	6	transcript	protein		380	
+80	ARAP3	0	transcript	protein		33	
+81	CLEC10A	6	transcript	protein		100	
+82	Lactosylceramide sulfate	1	metabolite	metabolite			56
+83	dADP	3	metabolite	metabolite			1034
+84	RDH11	4	bridge	protein			
+85	3-Sulfino-L-alanine	4	metabolite	metabolite			996
+86	IGKV3D-20	7	transcript	protein		328	
+87	APOC2	0	bridge	protein			
+88	CMTM3	4	protein	protein	135		
+89	BLK	4	protein,transcript	protein	53	70	
+90	ASF1B	5	protein	protein	90		
+91	C5	9	protein	protein	226		
+92	HAX1	2	bridge	protein			
+93	DCAF8	1	bridge	protein			
+94	RNF6	2	bridge	protein			
+95	Hydrogen sulfide	9	metabolite	metabolite			270
+96	3-Phosphonooxypyruvate	1	metabolite	metabolite			209
+97	ZFTA	1	transcript	protein		326	
+98	C1QA	4	transcript	protein		71	
+99	QPRT	5	bridge	protein			
+100	alpha-D-Ribose 1-phosphate	3	metabolite	metabolite			616
+101	DHRS3	2	bridge	protein			
+102	beta-Citryl-L-glutamate	3	metabolite	metabolite			224
+103	MUC1	3	protein	protein	68		
+104	KRTAP19-2	2	bridge	protein			
+105	NELL2	2	transcript	protein		44	
+106	PC	6	transcript	protein		72	
+107	TMX1	0	bridge	protein			
+108	ZRANB1	4	protein	protein	209		
+109	HCK	1	transcript	protein		266	
+110	FBXO10	0	transcript	protein		191	
+111	SRRT	4	protein	protein	123		
+112	PIK3AP1	1	transcript	protein		219	
+113	GRAMD1A	0	transcript	protein		232	
+114	WAS	3	protein,transcript	protein	270	315	
+115	KTI12	2	transcript	protein		383	
+116	(S)-2-Aminobutanoate	3	metabolite	metabolite			22
+117	ESAM	1	transcript	protein		118	
+118	CD300A	9	transcript	protein		350	
+119	STAT4	2	transcript	protein		92	
+120	Urea	3	metabolite	metabolite			85
+121	SDHB	8	transcript	protein		1439	
+122	Anthranilic acid	3	metabolite	metabolite			886
+123	Dihydroceramide	4	metabolite	metabolite			164
+124	5-Carboxycytosine in DNA	3	metabolite	metabolite			236
+125	3-Hydroxy-L-kynurenine	5	metabolite	metabolite			605
+126	3-Acylpyruvate	1	metabolite	metabolite			5
+127	TTLL7	0	transcript	protein		359	
+128	GNG8	7	protein	protein	152		
+129	L-Glutamine	14	metabolite	metabolite			199
+130	TSR3	1	bridge	protein			
+131	Xanthine	5	metabolite	metabolite			705
+132	5-Hydroxymethylcytosine in DNA	4	metabolite	metabolite			290
+133	3-Hydroxy-3-methylglutarate	1	metabolite	metabolite			1189
+134	NLRC5	2	transcript	protein		254	
+135	Leukotriene D4	1	metabolite	metabolite			171
+136	DPYSL3	0	transcript	protein		314	
+137	TMC8	6	transcript	protein		95	
+138	FAD	0	metabolite	metabolite			120
+139	HCO3-	5	metabolite	metabolite			577
+140	IGKV1-12	5	transcript	protein		320	
+141	Hydroquinone	6	metabolite	metabolite			1154
+142	ADGRE2	4	protein	protein	40		
+143	IDH3A	4	bridge	protein			
+144	dGTP	0	metabolite	metabolite			701
+145	UNC13A	0	transcript	protein		172	
+146	VSIG4	6	transcript	protein		633	
+147	CERS5	8	bridge	protein			
+148	MTDH	1	protein	protein	185		
+149	FCRL1	4	transcript	protein		397	
+150	SPAG8	4	protein	protein	151		
+151	SDHAF1	2	bridge	protein			
+152	GJA8	2	protein	protein	161		
+153	IGKV5-2	8	transcript	protein		57	
+154	5(S)-HPETE	1	metabolite	metabolite			362
+155	20-HETE	2	metabolite	metabolite			1158
+156	NDP	2	metabolite	metabolite			381
+157	CD163	7	transcript	protein		1114	
+158	THF-L-glutamate	0	metabolite	metabolite			1214
+159	KYAT3	27	bridge	protein			
+160	BTC	2	transcript	protein		183	
+161	SCN1B	0	transcript	protein		250	
+162	LPAR4	1	bridge	protein			
+163	CCL5	8	transcript	protein		278	
+164	Formaldehyde	6	metabolite	metabolite			172
+165	2-Hydroxyglutarate	2	metabolite	metabolite			860
+166	RNASE6	2	transcript	protein		111	
+167	CST1	4	bridge	protein			
+168	Dehydrospermidine	2	metabolite	metabolite			425
+169	CPA3	5	transcript	protein		115	
+170	IGHV3-64	9	transcript	protein		324	
+171	ATP5PB	4	bridge	protein			
+172	UGT1A1	4	bridge	protein			
+173	PARP15	6	transcript	protein		262	
+174	Protein-L-arginine	2	metabolite	metabolite			575
+175	10-Formyltetrahydrofolate	2	metabolite	metabolite			700
+176	THBD	4	bridge	protein			
+177	CANT1	7	protein	protein	105		
+178	N-Acetylornithine	1	metabolite	metabolite			328
+179	RCHY1	4	bridge	protein			
+180	DDX19B	3	bridge	protein			
+181	VEZT	4	protein	protein	81		
+182	KCNJ6	3	protein	protein	173		
+183	Steryl ester	0	metabolite	metabolite			947
+184	N-Acetylaspartylglutamate	2	metabolite	metabolite			1086
+185	MSMO1	3	bridge	protein			
+186	GBA1	6	bridge	protein			
+187	SLC49A4	1	transcript	protein		26	
+188	alpha-N-Acetylneuraminyl-2,6-beta-galactosyl-1,4-beta-D-glucosylceramide	1	metabolite	metabolite			595
+189	Leukotriene B4	3	metabolite	metabolite			204
+190	PTPN3	4	bridge	protein			
+191	MDH2	5	bridge	protein			
+192	Choline phosphate	1	metabolite	metabolite			385
+193	Phenylpyruvate	6	metabolite	metabolite			663
+194	PTPRB	0	transcript	protein		395	
+195	GEN1	1	transcript	protein		364	
+196	KYNU	7	bridge	protein			
+197	PABPC3	2	bridge	protein			
+198	IGHV1-69	13	transcript	protein		242	
+199	CFHR2	1	protein	protein	428		
+200	TPP2	1	bridge	protein			
+201	HTR2C	2	protein	protein	27		
+202	APOBR	1	transcript	protein		399	
+203	[Protein]-(3R)-3-hydroxy-L-arginine	2	metabolite	metabolite			1127
+204	HSCB	2	bridge	protein			
+205	CCDC134	3	bridge	protein			
+206	PRKD2	2	bridge	protein			
+207	N-Formimino-L-glutamate	2	metabolite	metabolite			317
+208	TUBGCP2	2	protein	protein	142		
+209	[Protein]-L-cysteine	2	metabolite	metabolite			516
+210	SNAI1	2	bridge	protein			
+211	USP7	9	protein	protein	120		
+212	CGN	4	bridge	protein			
+213	C3	20	protein	protein	116		
+214	L-Formylkynurenine	1	metabolite	metabolite			788
+215	[Oxidized NADPH---hemoprotein reductase]	4	metabolite	metabolite			373
+216	TPT1	2	bridge	protein			
+217	CFAP69	1	transcript	protein		289	
+218	PLXNC1	0	transcript	protein		410	
+219	CNTFR	4	bridge	protein			
+220	CREB3	3	protein	protein	136		
+221	D-Glucosamine 6-phosphate	4	metabolite	metabolite			318
+222	N-Acetyl-O-acetylneuraminate	1	metabolite	metabolite			557
+223	ARRDC2	1	transcript	protein		43	
+224	SLC16A6	1	transcript	protein		148	
+225	L-Isoleucine	3	metabolite	metabolite			631
+226	Acetoacetyl-CoA	2	metabolite	metabolite			588
+227	SLC39A1	2	protein,transcript	protein	217	255	
+228	ABL1	7	protein	protein	72		
+229	SGIP1	0	transcript	protein		296	
+230	SLC38A5	4	transcript	protein		396	
+231	TMCC3	2	bridge	protein			
+232	3-Oxopropanoate	3	metabolite	metabolite			784
+233	HLA-A	1	transcript	protein		63	
+234	FAM161A	3	protein,transcript	protein	42	65	
+235	MCL1	0	transcript	protein		238	
+236	Deamino-NAD+	2	metabolite	metabolite			619
+237	RIMKLB	5	bridge	protein			
+238	ELMO1	4	transcript	protein		223	
+239	Succinyl-CoA	5	metabolite	metabolite			826
+240	3-Oxoacyl-CoA	6	metabolite	metabolite			558
+241	CD55	2	bridge	protein			
+242	RAB4A	3	bridge	protein			
+243	8,9-EET	0	metabolite	metabolite			139
+244	CSF2RA	7	transcript	protein		165	
+245	LOX	0	transcript	protein		195	
+246	Taurine	2	metabolite	metabolite			952
+247	CFHR1	11	protein	protein	632		
+248	1,2-Diacyl-sn-glycerol	5	metabolite	metabolite			912
+249	NPHS2	3	transcript	protein		1375	
+250	GQ1	1	metabolite	metabolite			1047
+251	GMP	6	metabolite	metabolite			1126
+252	HMGB1	3	protein	protein	41		
+253	L-Asparaginyl-tRNA(Asn)	0	metabolite	metabolite			348
+254	CD300E	0	transcript	protein		207	
+255	CERK	4	bridge	protein			
+256	Arachidonic acid	15	metabolite	metabolite			449
+257	CFP	7	protein	protein	156		
+258	RNPEPL1	2	transcript	protein		1403	
+259	DYNLT1	1	bridge	protein			
+260	Acetoacetate	4	metabolite	metabolite			782
+261	RRP1	1	bridge	protein			
+262	PTGES2	6	bridge	protein			
+263	5,6-EET	1	metabolite	metabolite			762
+264	Thromboxane A2	0	metabolite	metabolite			432
+265	SYT6	2	bridge	protein			
+266	MORF4L2	0	transcript	protein		300	
+267	PRODH2	2	transcript	protein		348	
+268	Aceneuramate	1	metabolite	metabolite			800
+269	Hydroxyproline	2	metabolite	metabolite			818
+270	FFAR2	1	protein	protein	21		
+271	Procollagen trans-4-hydroxy-L-proline	2	metabolite	metabolite			418
+272	Phosphatidylethanolamine	3	metabolite	metabolite			698
+273	IDP	6	metabolite	metabolite			918
+274	CERS4	7	protein	protein	70		
+275	GJB1	1	protein,transcript	protein	100	129	
+276	STAB1	3	transcript	protein		347	
+277	L-Serine	8	metabolite	metabolite			906
+278	UBE2I	6	protein	protein	63		
+279	LINC02582	4	bridge	protein			
+280	DOK2	1	transcript	protein		30	
+281	DKK4	2	protein	protein	1203		
+282	SREBF2	4	bridge	protein			
+283	L-2-Aminoadipate	3	metabolite	metabolite			905
+284	[eIF5A-precursor]-lysine	2	metabolite	metabolite			1157
+285	11,12-EET	1	metabolite	metabolite			143
+286	Kynurenic acid	4	metabolite	metabolite			205
+287	2-(Formamido)-N1-(5'-phosphoribosyl)acetamidine	2	metabolite	metabolite			266
+288	ATF1	2	bridge	protein			
+289	Glucosylceramide	3	metabolite	metabolite			219
+290	D-Alanine	2	metabolite	metabolite			1191
+291	TMPRSS11E	6	bridge	protein			
+292	INHA	1	transcript	protein		27	
+293	ACOT2	6	bridge	protein			
+294	3'-Phosphoadenylyl sulfate	1	metabolite	metabolite			367
+295	Thiamin diphosphate	3	metabolite	metabolite			351
+296	Alkyl thiol	1	metabolite	metabolite			688
+297	(5Z,13E)-11alpha-Hydroxy-9,15-dioxoprost-5,13-dienoate	0	metabolite	metabolite			1023
+298	PTP4A1	2	bridge	protein			
+299	2-Oxoglutarate	82	metabolite	metabolite			337
+300	RPL7L1	1	bridge	protein			
+301	UDP-alpha-D-galactose	4	metabolite	metabolite			1152
+302	H3-3B	2	bridge	protein			
+303	CD72	5	transcript	protein		208	
+304	(S)-1-Pyrroline-5-carboxylate	2	metabolite	metabolite			1209
+305	IKBKE	1	protein,transcript	protein	347	393	
+306	RPRD1B	0	bridge	protein			
+307	Peptide 3-hydroxy-L-aspartate	3	metabolite	metabolite			1033
+308	SPHK2	3	bridge	protein			
+309	RAD23A	5	protein	protein	203		
+310	Deoxyinosine	2	metabolite	metabolite			561
+311	CFI	2	protein	protein	1355		
+312	FXYD5	5	transcript	protein		362	
+313	SAMSN1	2	transcript	protein		104	
+314	ACVR2B	0	transcript	protein		332	
+315	(S)-Methylmalonate semialdehyde	2	metabolite	metabolite			175
+316	SYT2	3	protein	protein	30		
+317	RIPOR2	3	transcript	protein		329	
+318	SLC18A2	3	protein	protein	140		
+319	2-Lysophosphatidylcholine	3	metabolite	metabolite			689
+320	IRF2	1	transcript	protein		343	
+321	PKD2	2	protein	protein	182		
+322	Delta1-Pyrroline-5-carboxylate	1	metabolite	metabolite			1111
+323	MAP3K5	1	transcript	protein		237	
+324	MRAP2	3	bridge	protein			
+325	CDC42BPA	2	transcript	protein		189	
+326	AIM2	8	transcript	protein		415	
+327	RAB35	2	bridge	protein			
+328	LCK	3	transcript	protein		58	
+329	2-Oxo-3-hydroxy-4-phosphobutanoate	1	metabolite	metabolite			823
+330	5-Oxoproline	2	metabolite	metabolite			252
+331	PTGR3	0	transcript	protein		188	
+332	FUT9	0	transcript	protein		292	
+333	PDS5B	10	bridge	protein			
+334	gamma-L-Glutamyl-L-2-aminobutyrate	1	metabolite	metabolite			914
+335	LRP3	0	transcript	protein		155	
+336	15(S)-HPETE	1	metabolite	metabolite			1162
+337	GALNT2	0	transcript	protein		127	
+338	RAPGEF5	0	bridge	protein			
+339	Formate	4	metabolite	metabolite			652
+340	RDH14	4	bridge	protein			
+341	gamma-L-Glutamyl-L-cysteine	2	metabolite	metabolite			1221
+342	2-Methyl-3-oxopropanoate	1	metabolite	metabolite			712
+343	CPNE9	3	bridge	protein			
+344	TKT	0	transcript	protein		145	
+345	HDAC4	0	protein,transcript	protein	127	168	
+346	DUSP22	1	transcript	protein		414	
+347	IGHM	3	protein	protein			
+348	C1QBP	3	protein	protein	132		
+349	IGLC2	3	transcript	protein		312	
+350	NHERF1	1	transcript	protein		125	
+351	N-Acetyl-L-glutamate	1	metabolite	metabolite			527
+352	L-Cystathionine	2	metabolite	metabolite			392
+353	FREM1	1	transcript	protein		233	
+354	Ceramide	12	metabolite	metabolite			428
+355	FOXD4L6	2	protein	protein	25		
+356	CAMKV	1	bridge	protein			
+357	CDP	0	metabolite	metabolite			1167
+358	Citrate	4	metabolite	metabolite			874
+359	STXBP3	1	bridge	protein			
+360	STMN3	0	transcript	protein		206	
+361	ITPR2	2	protein	protein	155		
+362	CHPF2	1	transcript	protein		186	
+363	CST4	3	protein	protein	144		
+364	TSPYL4	0	transcript	protein		103	
+365	gamma-Glutamyl-beta-cyanoalanine	2	metabolite	metabolite			440
+366	RIOX1	1	transcript	protein		96	
+367	Prostaglandin I2	0	metabolite	metabolite			995
+368	L-Aspartyl-tRNA(Asn)	1	metabolite	metabolite			924
+369	OPRL1	1	bridge	protein			
+370	Succinate semialdehyde	3	metabolite	metabolite			40
+371	L-Cysteate	1	metabolite	metabolite			135
+372	MYO1F	1	transcript	protein		42	
+373	IDH3B	6	bridge	protein			
+374	ALOX5	12	transcript	protein		1042	
+375	PLA2R1	0	transcript	protein		273	
+376	FAM209A	7	protein	protein	179		
+377	L-Asparagine	3	metabolite	metabolite			460
+378	VPS8	2	protein	protein	73		
+379	UMOD	2	bridge	protein			
+380	ELOVL4	8	protein	protein	102		
+381	FADH2	2	metabolite	metabolite			54
+382	GRIA3	2	transcript	protein		136	
+383	COL25A1	1	transcript	protein		353	
+384	Ferrocytochrome c	1	metabolite	metabolite			783
+385	DBNL	3	bridge	protein			
+386	Galactosylceramide	4	metabolite	metabolite			217
+387	FAXDC2	0	transcript	protein		139	
+388	SRC	4	protein	protein	58		
+389	LAMP3	1	bridge	protein			
+390	ITGAV	6	bridge	protein			
+391	SGPP2	0	transcript	protein		213	
+392	Nucleoside triphosphate	1	metabolite	metabolite			794
+393	GNPTAB	3	protein	protein	198		
+394	Isocitrate	3	metabolite	metabolite			245
+395	NPHS1	4	transcript	protein		1476	
+396	CLEC4E	0	transcript	protein		149	
+397	Glyoxylate	7	metabolite	metabolite			417
+398	IGKV3D-15	6	transcript	protein		308	
+399	XKR8	1	protein,transcript	protein	258	299	
+400	CMAS	4	bridge	protein			
+401	TNFRSF13C	2	transcript	protein		390	
+402	SIRPB2	0	transcript	protein		128	
+403	2-Hydroxyethylenedicarboxylate	1	metabolite	metabolite			939
+404	ARHGAP8	0	transcript	protein		164	
+405	Lactosylceramide	7	metabolite	metabolite			1383
+406	2,5-Dioxopentanoate	1	metabolite	metabolite			670
+407	ASF1B	2	transcript	protein		112	
+408	IL12RB1	10	transcript	protein		174	
+409	PCDHB15	0	transcript	protein		341	
+410	NR6A1	0	transcript	protein		15	
+411	SLC9B2	3	transcript	protein		187	
+412	FYB1	3	transcript	protein		338	
+413	CKAP5	3	bridge	protein			
+414	Cys-Gly	3	metabolite	metabolite			935
+415	GM4	1	metabolite	metabolite			73
+416	DOCK10	5	transcript	protein		13	
+417	SAT2	5	bridge	protein			
+418	L-Selenocystathionine	2	metabolite	metabolite			932
+419	CD74	1	transcript	protein		352	
+420	WDR6	4	bridge	protein			
+421	PRKY	2	protein	protein	157		
+422	GGH	7	transcript	protein		752	
+423	Prostaglandin D2	0	metabolite	metabolite			646
+424	MEOX2	9	protein	protein	186		
+425	3-Oxo acid	2	metabolite	metabolite			2
+426	COPZ1	1	bridge	protein			
+427	S-Adenosyl-L-methionine	14	metabolite	metabolite			38
+428	L-3-Aminoisobutanoate	2	metabolite	metabolite			637
+429	L-Lysine	2	metabolite	metabolite			483
+430	4-Fumarylacetoacetate	1	metabolite	metabolite			308
+431	CCR2	12	transcript	protein		1185	
+432	Procollagen L-proline	2	metabolite	metabolite			1090
+433	DYNC1I2	4	bridge	protein			
+434	CBY1	3	protein	protein	98		
+435	S-Alkyl-L-cysteine	2	metabolite	metabolite			207
+436	CD209	5	transcript	protein		310	
+437	3-Carboxy-1-hydroxypropyl-ThPP	1	metabolite	metabolite			654
+438	SMAD4	2	protein	protein	192		
+439	IL7R	14	protein,transcript	protein	134	178	
+440	CD59	10	bridge	protein			
+441	WAPL	2	bridge	protein			
+442	HAVCR1	6	transcript	protein		831	
+443	UQCRFS1	7	transcript	protein		98	
+444	R-S-Glutathione	0	metabolite	metabolite			7
+445	INSL5	2	bridge	protein			
+446	BATF	4	transcript	protein		8	
+447	DPEP1	2	bridge	protein			
+448	RABIF	3	bridge	protein			
+449	KAT5	15	protein	protein	104		
+450	2-Iminopropanoate	1	metabolite	metabolite			649
+451	TNFRSF11A	3	transcript	protein		64	
+452	PRF1	2	transcript	protein		224	
+453	L-Glutamyl-tRNA(Gln)	0	metabolite	metabolite			82
+454	MNDA	2	transcript	protein		37	
+455	LBHD1	0	transcript	protein		360	
+456	Guanidinoacetate	5	metabolite	metabolite			19
+457	C3AR1	6	protein	protein			
+458	S-Adenosylmethioninamine	2	metabolite	metabolite			286
+459	ATXN1	12	protein	protein	172		
+460	2-Oxosuccinamate	0	metabolite	metabolite			733
+461	CLIC5	1	transcript	protein		175	
+462	PRDX4	10	protein	protein	159		
+463	4-Methylthio-2-oxobutanoic acid	1	metabolite	metabolite			35
+464	NOTCH2NLC	3	protein	protein	47		
+465	3-Sulfinylpyruvate	2	metabolite	metabolite			579
+466	UDP-N-acetyl-alpha-D-glucosamine	3	metabolite	metabolite			421
+467	ARHGEF16	0	transcript	protein		287	
+468	CD1C	0	transcript	protein		389	
+469	IL17RE	3	transcript	protein		418	
+470	IGHV3-20	9	transcript	protein		23	
+471	DNA adenine	0	metabolite	metabolite			336
+472	N-Acetyl-D-mannosamine	2	metabolite	metabolite			722
+473	5-Phospho-alpha-D-ribose 1-diphosphate	5	metabolite	metabolite			1087
+474	LGR4	5	transcript	protein		1096	
+475	5-Phosphoribosylamine	2	metabolite	metabolite			130
+476	LYRM7	3	bridge	protein			
+477	BCAP31	1	protein	protein	43		
+478	PIF1	2	transcript	protein		281	
+479	L-erythro-4-Hydroxyglutamate	2	metabolite	metabolite			618
+480	RHOH	15	transcript	protein		49	
+481	L-Ornithine	12	metabolite	metabolite			123
+482	PDLIM1	0	transcript	protein		0	
+483	Prostaglandin F2alpha	3	metabolite	metabolite			909
+484	SPEG	0	transcript	protein		22	
+485	TGFBR3	0	transcript	protein		423	
+486	CD6	5	protein,transcript	protein	126	167	
+487	XRN1	0	bridge	protein			
+488	Phytanoyl-CoA	2	metabolite	metabolite			576
+489	ZNF91	1	transcript	protein		335	
+490	Hydrogen peroxide	22	metabolite	metabolite			1058
+491	XPO6	2	protein	protein	187		
+492	N-(4-Oxoglutaryl)-L-cysteinylglycine	1	metabolite	metabolite			146
+493	TMEM237	1	protein	protein	6		
+494	ESYT1	3	bridge	protein			
+495	Procollagen trans-3-hydroxy-L-proline	2	metabolite	metabolite			320
+496	1-(5'-Phosphoribosyl)-5-amino-4-imidazolecarboxamide	0	metabolite	metabolite			110
+497	IGLV7-43	6	transcript	protein		374	
+498	INCA1	5	protein	protein	52		
+499	IGKV2-24	3	transcript	protein		199	
+500	GCNT1	8	transcript	protein		221	
+501	AIG1	5	bridge	protein			
+502	MAP7	1	transcript	protein		6	
+503	LMOD1	0	transcript	protein		288	
+504	CCL4	1	transcript	protein		176	
+505	Taurocyamine	3	metabolite	metabolite			977
+506	beta-D-Glucose	0	metabolite	metabolite			1174
+507	YWHAH	0	protein,transcript	protein	366	419	
+508	LILRB5	13	transcript	protein		231	
+509	GIGYF1	5	protein	protein	0		
+510	CBR3	3	bridge	protein			
+511	STOM	3	protein	protein	11		
+512	TSPAN32	11	transcript	protein		378	
+513	FCRL5	5	transcript	protein		181	
+514	TXLNB	6	protein	protein	107		
+515	PRKCG	1	protein	protein	31		
+516	10-Formyltetrahydrofolylpolyglutamate	1	metabolite	metabolite			1082
+517	Leukotriene C4	2	metabolite	metabolite			380
+518	MYC	3	protein	protein	86		
+519	ZMAT1	2	transcript	protein		69	
+520	dATP	2	metabolite	metabolite			1043
+521	ZNF44	2	transcript	protein		283	
+522	GATM	8	transcript	protein		971	
+523	TENT5D	4	bridge	protein			
+524	CYP4F3	5	transcript	protein		5	
+525	CRY2	3	bridge	protein			
+526	ITGB2	9	transcript	protein		519	
+527	3-Cyano-L-alanine	1	metabolite	metabolite			507
+528	LAT2	6	transcript	protein		243	
+529	2-Oxoglutaramate	3	metabolite	metabolite			300
+530	L-Methionine	8	metabolite	metabolite			431
+531	L-Cystine	1	metabolite	metabolite			6
+532	CDP-ethanolamine	2	metabolite	metabolite			676
+533	5-Methylcytosine in DNA	2	metabolite	metabolite			223
+534	L-Phenylalanine	6	metabolite	metabolite			573
+535	(3S)-3-Hydroxy-N6,N6,N6-trimethyl-L-lysine	2	metabolite	metabolite			277
+536	ZNF597	2	protein	protein	10		
+537	(3S)-Citramalyl-CoA	1	metabolite	metabolite			1084
+538	(S)-3-Methyl-2-oxopentanoic acid	3	metabolite	metabolite			389
+539	Xanthosine	2	metabolite	metabolite			23
+540	ACOT1	6	bridge	protein			
+541	Uric acid	2	metabolite	metabolite			536
+542	SF3A1	2	protein	protein	215		
+543	CFB	7	protein	protein	681		
+544	PCOLCE2	1	transcript	protein		54	
+545	DEPDC1B	2	bridge	protein			
+546	NCAPH	0	transcript	protein		74	
+547	REEP2	2	protein	protein	93		
+548	DNM3	1	transcript	protein		361	
+549	PDE3B	3	protein	protein			
+550	PRDX4	1	transcript	protein		200	
+551	JPT2	5	bridge	protein			
+552	Thioredoxin	9	metabolite	metabolite			494
+553	Fatty acid	4	metabolite	metabolite			1147
+554	Acetate	3	metabolite	metabolite			610
+555	MTMR3	2	protein	protein			
+556	RASSF5	3	transcript	protein		342	
+557	L-Aspartate	12	metabolite	metabolite			370
+558	DHRS9	3	transcript	protein		16	
+559	RIN3	2	transcript	protein		20	
+560	LGI2	1	transcript	protein		9	
+561	GM3	4	metabolite	metabolite			691
+562	CFHR3	5	protein	protein	828		
+563	CFHR5	7	protein	protein	557		
+564	ZDHHC18	1	transcript	protein		346	
+565	N1-Methylguanine in tRNA(Phe)	2	metabolite	metabolite			461
+566	MS4A1	9	protein,transcript	protein	346	394	
+567	ZNF831	9	transcript	protein		185	
+568	PDCD2	8	bridge	protein			
+569	Peptide L-aspartate	3	metabolite	metabolite			25
+570	LY9	7	transcript	protein		305	
+571	CD226	2	transcript	protein		382	
+572	C1QTNF7	2	transcript	protein		398	
+573	PRPH2	8	protein	protein	713		
+574	IGLV3-16	6	transcript	protein		194	
+575	CRP	5	protein	protein	7		
+576	DYNC1I1	2	bridge	protein			
+577	(S)-2-Hydroxyglutarate	1	metabolite	metabolite			523
+578	LTF	0	transcript	protein		143	
+579	SLC25A20	3	protein	protein	66		
+580	CDSN	1	bridge	protein			
+581	CD163L1	11	transcript	protein		808	
+582	MS4A6A	0	transcript	protein		276	
+583	tRNA(Glu)	1	metabolite	metabolite			888
+584	PIK3CD	2	transcript	protein		154	
+585	DISC1	9	protein	protein	44		
+586	FCMR	3	transcript	protein		151	
+587	EIF3I	0	protein	protein	114		
+588	N6,N6,N6-Trimethyl-L-lysine	2	metabolite	metabolite			59
+589	DCLK2	1	transcript	protein		46	
+590	G2E3	3	bridge	protein			
+591	N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide	3	metabolite	metabolite			925
+592	CFH	3	protein	protein	840		
+593	Acyl-CoA	12	metabolite	metabolite			195
+594	HCFC1	3	bridge	protein			
+595	GYPB	2	bridge	protein			
+596	IL2RB	21	transcript	protein		1400	
+597	IGHV3-33	7	transcript	protein		101	
+598	HPD	3	transcript	protein		78	
+599	GA2	3	metabolite	metabolite			1073
+600	XPO4	2	protein	protein	210		
+601	RBM11	1	bridge	protein			
+602	FIGNL1	2	bridge	protein			
+603	Mercaptopyruvate	5	metabolite	metabolite			728
+604	FCER2	10	transcript	protein		337	
+605	TRBV5-1	15	transcript	protein		381	
+606	KIF13B	3	bridge	protein			
+607	PKD2	1	transcript	protein		215	
+608	VCAN	1	transcript	protein		392	
+609	GNL1	4	bridge	protein			
+610	(S)-Ureidoglycolate	0	metabolite	metabolite			713
+611	PANK2	6	bridge	protein			
+612	gamma-Glutamyl-beta-aminopropiononitrile	2	metabolite	metabolite			569
+613	CTSK	3	transcript	protein		291	
+614	PRPF40B	0	transcript	protein		297	
+615	CMTM3	4	transcript	protein		180	
+616	FMO3	0	transcript	protein		247	
+617	VHL	7	protein	protein	125		
+618	2-Oxo acid	1	metabolite	metabolite			468
+619	PRAM1	2	transcript	protein		406	
+620	L-Leucine	2	metabolite	metabolite			1207
+621	CSF1R	1	transcript	protein		56	
+622	CFP	8	transcript	protein		196	
+623	EGR2	7	bridge	protein			
+624	Carboxylate	5	metabolite	metabolite			978
+625	Acetyl-CoA	13	metabolite	metabolite			745
+626	TM4SF18	1	protein	protein	99		
+627	Malate	4	metabolite	metabolite			128
+628	L-Amino acid	4	metabolite	metabolite			970
+629	N6-Succino-2-amino-2'-deoxyadenylate	2	metabolite	metabolite			261
+630	TNFRSF19	1	bridge	protein			
+631	KCTD7	2	bridge	protein			
+632	CMTM4	1	protein,transcript	protein	101	131	
+633	Ubiquinone	4	metabolite	metabolite			669
+634	ITGAL	7	transcript	protein		28	
+635	MATN2	0	transcript	protein		417	
+636	FCHO1	11	transcript	protein		76	
+637	[Reduced NADPH---hemoprotein reductase]	4	metabolite	metabolite			467
+638	N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide	2	metabolite	metabolite			497
+639	LACC1	12	bridge	protein			
+640	BCOR	2	bridge	protein			
+641	Hydroxypyruvate	4	metabolite	metabolite			627
+642	IGLV2-18	8	transcript	protein		261	
+643	ADGRG2	2	transcript	protein		345	
+644	CYTIP	4	transcript	protein		141	
+645	Ceramide phosphoethanolamine	2	metabolite	metabolite			976
+646	IGFBP6	1	bridge	protein			
+647	MYLIP	1	transcript	protein		166	
+648	WARS1	2	bridge	protein			
+649	MYLK3	0	transcript	protein		170	
+650	(9Z,12Z,15Z)-Octadecatrienoic acid	4	metabolite	metabolite			781
+651	ST8SIA4	6	protein	protein			
+652	Adenosine 3',5'-bisphosphate	1	metabolite	metabolite			665
+653	PRKCB	0	protein,transcript	protein	339	387	
+654	Prostaglandin E2	3	metabolite	metabolite			74
+655	[Dihydrolipoyllysine-residue succinyltransferase] S-succinyldihydrolipoyllysine	1	metabolite	metabolite			584
+656	CCDC88C	0	transcript	protein		356	
+657	IGHM	7	transcript	protein		212	
+658	SIRT2	2	bridge	protein			
+659	C3AR1	6	transcript	protein		252	
+660	AGR3	1	protein	protein	83		
+661	5-Formiminotetrahydrofolate	3	metabolite	metabolite			1006
+662	RHOBTB3	2	transcript	protein		150	
+663	SEL1L3	2	transcript	protein		19	
+664	Sphingosine	7	metabolite	metabolite			464
+665	TMEM150C	0	transcript	protein		239	
+666	Procollagen 5-hydroxy-L-lysine	2	metabolite	metabolite			357
+667	FAM50A	0	transcript	protein		21	
+668	DBT	1	transcript	protein		240	
+669	CFH	9	transcript	protein		847	
+670	CNTN3	0	transcript	protein		40	
+671	Selenohomocysteine	2	metabolite	metabolite			466
+672	CORO1A	10	transcript	protein		892	
+673	(4R)-4-Hydroxy-2-oxoglutarate	1	metabolite	metabolite			152
+674	N6-(L-1,3-Dicarboxypropyl)-L-lysine	1	metabolite	metabolite			816
+675	TUBA1B	1	transcript	protein		85	
+676	GRIP1	4	bridge	protein			
+677	SLC22A31	4	transcript	protein		330	
+678	SCIMP	3	transcript	protein		202	
+679	CASR	0	transcript	protein		216	
+680	MCOLN2	4	transcript	protein		87	
+681	Protein N6,N6-dimethyl-L-lysine	2	metabolite	metabolite			563
+682	NPRL3	4	bridge	protein			
+683	TRPC4	0	transcript	protein		257	
+684	Guanine	4	metabolite	metabolite			87
+685	GALNT18	1	transcript	protein		327	
+686	Glutaminyl-tRNA	1	metabolite	metabolite			50
+687	PPP3CC	5	bridge	protein			
+688	CD3D	7	transcript	protein		420	
+689	HSP90AA1	6	protein	protein	162		
+690	ITGAM	16	protein	protein	230		
+691	ARL4A	1	transcript	protein		354	
+692	SRA1	2	bridge	protein			
+693	6-Thioguanosine monophosphate	1	metabolite	metabolite			632
+694	C5AR1	16	protein	protein	568		
+695	IGKV1-17	4	transcript	protein		316	
+696	ALB	3	bridge	protein			
+697	[Protein]-(3S)-3-hydroxy-L-lysine	2	metabolite	metabolite			361
+698	L-Valine	1	metabolite	metabolite			62
+699	Leukotriene A4	4	metabolite	metabolite			1117
+700	F2RL1	2	transcript	protein		89	
+701	5-Formylcytosine in DNA	4	metabolite	metabolite			65
+702	3-(4-Hydroxyphenyl)pyruvate	2	metabolite	metabolite			353
+703	ST8SIA4	2	transcript	protein		248	
+704	3-Aminopropiononitrile	2	metabolite	metabolite			1071
+705	PDE3B	6	transcript	protein		132	
+706	PAX5	3	transcript	protein		284	
+707	UGDH	6	protein	protein	1441		
+708	N6-(1,2-Dicarboxyethyl)-AMP	1	metabolite	metabolite			598
+709	AGMAT	4	transcript	protein		839	
+710	CHI3L1	4	transcript	protein		673	
+711	RAC1	2	protein	protein	20		
+712	OCIAD1	3	protein	protein	35		
+713	SMARCA2	2	bridge	protein			
+714	SH2D1A	8	transcript	protein		209	
+715	L-Glutamate	60	metabolite	metabolite			66
+716	GD1b	1	metabolite	metabolite			763
+717	3-Guanidinopropanoate	2	metabolite	metabolite			9
+718	UBASH3A	2	transcript	protein		18	
+719	beta-D-Galactose	2	metabolite	metabolite			187
+720	C14orf132	0	transcript	protein		214	
+721	C1QL1	0	transcript	protein		117	
+722	NUP58	1	protein	protein	201		
+723	UDP-N-acetyl-D-galactosamine	3	metabolite	metabolite			993
+724	Arachidonyl-CoA	3	metabolite	metabolite			20
+725	C5AR1	6	transcript	protein		578	
+726	L-Alanine	10	metabolite	metabolite			200
+727	PLA2G4A	13	bridge	protein			
+728	20-OH-Leukotriene B4	3	metabolite	metabolite			61
+729	SNTG1	2	bridge	protein			
+730	N-Acetyl-D-galactosamine	3	metabolite	metabolite			792
+731	ZNF302	3	transcript	protein		386	
+732	Tetrahydrofolate	9	metabolite	metabolite			141
+733	CPB2	2	protein	protein	1170		
+734	LAX1	12	transcript	protein		91	
+735	COL9A2	2	transcript	protein		169	
+736	CLIC1	3	bridge	protein			
+737	5'-Deoxyadenosine	2	metabolite	metabolite			813
+738	HSPA8	6	protein	protein	115		
+739	RPS28	1	bridge	protein			
+740	Carbamoyl phosphate	4	metabolite	metabolite			57
+741	N-Acetylputrescine	2	metabolite	metabolite			1070
+742	GLA	5	bridge	protein			
+743	Protein N6-methyl-L-lysine	3	metabolite	metabolite			945
+744	MTMR3	2	transcript	protein		201	
+745	Ferrocytochrome b5	3	metabolite	metabolite			870
+746	ATP6V1G2	0	bridge	protein			
+747	KLRD1	11	transcript	protein		173	
+748	PGAP4	0	transcript	protein		355	
+749	VTI1B	5	protein	protein	9		
+750	GRB2	9	protein	protein	165		
+751	FAM47E	3	transcript	protein		81	
+752	KEAP1	4	protein	protein	26		
+753	CEP57L1	3	bridge	protein			
+754	Formylanthranilate	2	metabolite	metabolite			407
+755	CCR7	2	transcript	protein		38	
+756	MAPK14	2	protein	protein	188		
+757	dZMP	2	metabolite	metabolite			29
+758	FCRL3	6	transcript	protein		225	
+759	TGM5	0	protein	protein	12		
+760	L-Cysteine-S-conjugate	3	metabolite	metabolite			340
+761	SPI1	4	transcript	protein		336	
+762	NELFE	1	protein	protein	171		
+763	SPINK1	2	bridge	protein			
+764	4-Trimethylammoniobutanoate	2	metabolite	metabolite			565
+765	ITGAM	9	transcript	protein		272	
+766	Glycine	20	metabolite	metabolite			933
+767	5'-Methylthioadenosine	3	metabolite	metabolite			1039
+768	Dihydrofolate	1	metabolite	metabolite			651
+769	FCGR2A	2	transcript	protein		375	
+770	Methaneselenol	3	metabolite	metabolite			347
+771	CTHRC1	8	transcript	protein		67	
+772	PSD4	0	transcript	protein		99	
+773	HSD17B13	3	protein	protein	22		
+774	Se-Methyl-L-selenocysteine	3	metabolite	metabolite			106
+775	MAPKAPK3	6	bridge	protein			
+776	SLAMF7	7	transcript	protein		130	
+777	CCK	2	bridge	protein			
+778	ANO9	0	transcript	protein		298	
+779	CXCR4	5	protein	protein	62		
+780	2-(alpha-Hydroxyethyl)thiamine diphosphate	1	metabolite	metabolite			606
+781	RUNX3	6	transcript	protein		198	
+782	Reduced acceptor	8	metabolite	metabolite			159
+783	CNR1	0	transcript	protein		220	
+784	S1PR4	8	transcript	protein		144	
+785	PLCB2	3	transcript	protein		113	
+786	F2	2	bridge	protein			
+787	FAM9A	2	protein	protein	103		
+788	NCF4	8	transcript	protein		264	
+789	GALK2	3	bridge	protein			
+790	PABPN1	0	transcript	protein		31	
+791	ABCF2	2	bridge	protein			
+792	NCR1	2	protein	protein	76		
+793	C9	3	protein	protein	1		
+794	UQCRQ	2	bridge	protein			
+795	KCTD9	3	protein	protein	79		
+796	Quinone	5	metabolite	metabolite			805
+797	spermidine	5	metabolite	metabolite			105
+798	12(S)-HPETE	1	metabolite	metabolite			83
+799	CTLA4	9	transcript	protein		370	
+800	IMPDH1	1	transcript	protein		400	
+801	IGHV2-26	5	transcript	protein		55	
+802	H2BC14	5	transcript	protein		211	
+803	MYC	10	transcript	protein		109	
+804	YWHAZ	5	protein	protein	111		
+805	GRK6	5	transcript	protein		269	
+806	N-Acetylaspartylglutamylglutamate	1	metabolite	metabolite			423
+807	CARD9	3	protein,transcript	protein	113	140	
+808	BRMS1L	1	bridge	protein			
+809	2-Oxoadipate	0	metabolite	metabolite			325
+810	SLC1A3	1	transcript	protein		321	
+811	Hexadecenal	1	metabolite	metabolite			647
+812	Prostaglandin G2	0	metabolite	metabolite			639
+813	TLR6	7	transcript	protein		267	
+814	Succinate	30	metabolite	metabolite			1057
+815	Oxalosuccinate	1	metabolite	metabolite			398
+816	6-Thioxanthine 5'-monophosphate	2	metabolite	metabolite			790
+817	FCN3	4	protein,transcript	protein	462	498	
+818	HCST	7	protein,transcript	protein	234	280	
+819	Phosphatidylcholine	7	metabolite	metabolite			1185
+820	CSDC2	1	transcript	protein		339	
+821	HIF1A	6	protein	protein	56		
+822	[Protein]-(3S)-3-hydroxy-L-histidine	2	metabolite	metabolite			904
+823	MTOR	7	protein	protein	197		
+824	NECTIN2	2	bridge	protein			
+825	ART4	0	transcript	protein		227	
+826	UDP-glucose	3	metabolite	metabolite			917
+827	CR1	4	protein	protein	250		
+828	PRLR	1	transcript	protein		32	
+829	SHBG	2	bridge	protein			
+830	YIPF3	4	protein	protein	147		
+831	FXR1	3	protein	protein	54		
+832	L-Citrulline	3	metabolite	metabolite			485
+833	CD46	4	protein	protein	1397		
+834	L-Arginine	7	metabolite	metabolite			1114
+835	16(R)-HETE	1	metabolite	metabolite			1103
+836	COL14A1	1	bridge	protein			
+837	DCAF13	2	bridge	protein			
+838	RING1	3	protein	protein	183		
+839	L-Cysteine	12	metabolite	metabolite			239
+840	L-2-Aminoadipate 6-semialdehyde	2	metabolite	metabolite			408
+841	Oxaloacetate	13	metabolite	metabolite			1461
+842	SPRED2	0	transcript	protein		66	
+843	UNC13D	12	transcript	protein		412	
+844	IGKV1-8	7	transcript	protein		45	
+845	SNAI3	13	transcript	protein		86	
+846	[Dihydrolipoyllysine-residue acetyltransferase] S-acetyldihydrolipoyllysine	1	metabolite	metabolite			349
+847	UDP	11	metabolite	metabolite			488
+848	ASPH	11	protein	protein	193		
+849	3-Methyl-2-oxobutanoic acid	2	metabolite	metabolite			614
+850	IGLV9-49	5	transcript	protein		277	
+851	Aryl thiol	3	metabolite	metabolite			737
+852	SH3PXD2B	2	transcript	protein		60	
+853	NFAM1	3	transcript	protein		90	
+854	MRC1	7	transcript	protein		1254	
+855	C3	5	transcript	protein		147	
+856	XDH	6	bridge	protein			
+857	STIM1	2	transcript	protein		373	
+858	7-[(3S)-(3-Amino-3-carboxypropyl)]wyosine in tRNA(Phe)	2	metabolite	metabolite			749
+859	QPCT	0	transcript	protein		334	
+860	ARFIP2	2	protein	protein	88		
+861	dGDP	2	metabolite	metabolite			538
+862	IGHV3-49	7	transcript	protein		114	
+863	GPR183	17	transcript	protein		192	
+864	JUP	2	protein	protein	194		
+865	NIBAN3	2	transcript	protein		193	
+866	SRC	2	transcript	protein		73	
+867	DPP6	0	transcript	protein		365	
+868	COL4A3	2	transcript	protein		518	
+869	GPR37L1	2	protein	protein	211		
+870	Fumarate	8	metabolite	metabolite			1062
+871	FHIP2A	0	transcript	protein		97	
+872	TEKT5	4	protein	protein	28		
+873	CXCR4	7	transcript	protein		82	
+874	Linoleate	4	metabolite	metabolite			254
+875	ANO1	2	transcript	protein		190	
+876	Acceptor	7	metabolite	metabolite			1377
+877	CYP2U1	6	bridge	protein			
+878	LNX2	3	bridge	protein			
+879	ELOVL2	3	protein	protein	167		
+880	KCNA3	9	transcript	protein		230	
+881	KRT31	8	protein	protein	2		
+882	TAGAP	6	transcript	protein		94	
+883	FCAMR	1	transcript	protein		12	
+884	ZNF570	0	transcript	protein		24	
+885	VENTX	3	protein,transcript	protein	312	357	
+886	MME	3	transcript	protein		379	
+887	FBXL19	2	bridge	protein			
+888	RASSF3	4	bridge	protein			
+889	RUBCNL	5	transcript	protein		426	
+890	sphingosine 1-phosphate	3	metabolite	metabolite			638
+891	Ceramide 1-phosphate	2	metabolite	metabolite			761
+892	NCAPG	0	transcript	protein		50	
+893	SNX12	5	protein	protein	174		
+894	N-Acetyl-beta-D-glucosaminyl-(1->3)-beta-D-galactosyl-(1->4)-beta-D-glucosyl-(1<->1)-ceramide	1	metabolite	metabolite			401
+895	INSRR	0	transcript	protein		84	
+896	VTN	9	bridge	protein			
+897	ZBED8	2	transcript	protein		77	
+898	TACR1	1	bridge	protein			
+899	beta-Alanine	5	metabolite	metabolite			820

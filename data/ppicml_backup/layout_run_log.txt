@@ -1,0 +1,180 @@
+[2026-09-25T08:16:30+00:00] base=shell_1 status=OK
+  method: Concentric shell layout: protein (inner) / bridge (mid) / metabolite (outer)
+  call: deterministic Fibonacci-sphere placement per layer3 (no simulation)
+  params: {'order': ('protein', 'bridge', 'metabolite'), 'shell_r_base': 1.0, 'shell_min_gap_factor': 1.5, 'radii': {'protein': 21.166, 'bridge': 31.749, 'metabolite': 47.6235}}
+  seed: 42
+  weighting: none
+  nodes=900 edges=1689
+  fallback: node order within each shell: (connected-component rank, then id) so same-component nodes are angularly contiguous; handles isolated nodes naturally as trivial 1-node components
+
+[2026-09-25T08:16:30+00:00] base=shell_2 status=OK
+  method: Concentric shell layout: metabolite (inner) / bridge (mid) / protein (outer)
+  call: deterministic Fibonacci-sphere placement per layer3 (no simulation)
+  params: {'order': ('metabolite', 'bridge', 'protein'), 'shell_r_base': 1.0, 'shell_min_gap_factor': 1.5, 'radii': {'metabolite': 17.3205, 'bridge': 25.9808, 'protein': 38.9711}}
+  seed: 42
+  weighting: none
+  nodes=900 edges=1689
+  fallback: reversed radius order variant of shell_1; same node-ordering rule
+
+[2026-09-25T08:16:33+00:00] base=fa2_1 status=OK
+  method: ForceAtlas2 (shared xy, discrete z per layer3)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2}
+  seed: 42
+  weighting: unweighted
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes ring-placed per layer3 at z={'protein': -318.948779296875, 'bridge': 0.0, 'metabolite': 318.948779296875}
+
+[2026-09-25T08:16:34+00:00] base=fa2sep_1 status=OK
+  method: ForceAtlas2 run independently per layer3 (induced subgraphs), xy left overlapping across layers, z-stacked
+  call: nx.forceatlas2_layout(layer_subgraph, max_iter=100, seed=42, dim=2) x3
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2}
+  seed: 42
+  weighting: none (cross-layer edges excluded by induced subgraph)
+  nodes=900 edges=1689
+  fallback: 137 within-layer-isolated nodes ring-placed per their own layer3 at z={'protein': -227.62046813964844, 'bridge': 0.0, 'metabolite': 227.62046813964844}
+
+[2026-09-25T08:16:34+00:00] base=topodeg_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from degree_centrality
+  call: nx.degree_centrality(G)
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=900 edges=1689
+  fallback: z = normalized degree_centrality, scaled to xy spread (2665.0719)
+
+[2026-09-25T08:17:19+00:00] base=kk3d_1 status=OK
+  method: Kamada-Kawai on giant component (745 nodes) + deterministic fallback shell for 155 remaining nodes
+  call: nx.kamada_kawai_layout(giant_subgraph, dim=3, weight=...)
+  params: {'dim': 3, 'weight': None}
+  seed: 42
+  weighting: unweighted (hop distance)
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component (isolated + small components) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:17:29+00:00] base=kk3d_2 status=OK
+  method: Kamada-Kawai on giant component (745 nodes) + deterministic fallback shell for 155 remaining nodes
+  call: nx.kamada_kawai_layout(giant_subgraph, dim=3, weight=...)
+  params: {'dim': 3, 'weight': 'kk_weight'}
+  seed: 42
+  weighting: distance: within=1.0, cross=3.0
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component (isolated + small components) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:17:50+00:00] base=mds_1 status=OK
+  method: Classical MDS on shortest-path distance matrix (giant component only)
+  call: sklearn.manifold.MDS(n_components=3, dissimilarity='precomputed', random_state=42, n_init=4)
+  params: {'n_components': 3, 'random_state': 42, 'n_init': 4, 'weight': None}
+  seed: 42
+  weighting: unweighted hop count
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:18:03+00:00] base=mds_2 status=OK
+  method: Classical MDS on shortest-path distance matrix (giant component only)
+  call: sklearn.manifold.MDS(n_components=3, dissimilarity='precomputed', random_state=42, n_init=4)
+  params: {'n_components': 3, 'random_state': 42, 'n_init': 4, 'weight': 'mds_hop_weight'}
+  seed: 42
+  weighting: hop length: within=1.0, cross=3.0
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:18:03+00:00] base=spectral_1 status=OK
+  method: Spectral embedding (Laplacian eigenmaps) on adjacency matrix (giant component only)
+  call: sklearn.manifold.SpectralEmbedding(n_components=3, affinity='precomputed', random_state=42)
+  params: {'n_components': 3, 'random_state': 42}
+  seed: 42
+  weighting: unweighted adjacency
+  nodes=900 edges=1689
+  fallback: epsilon=0.001 background added to adjacency for numerical stability; 155 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:18:03+00:00] base=spectral_2 status=OK
+  method: Spectral embedding (Laplacian eigenmaps) on adjacency matrix (giant component only)
+  call: sklearn.manifold.SpectralEmbedding(n_components=3, affinity='precomputed', random_state=42)
+  params: {'n_components': 3, 'random_state': 42}
+  seed: 42
+  weighting: adjacency weighted: within=1.0, cross=0.2
+  nodes=900 edges=1689
+  fallback: epsilon=0.001 background added to adjacency for numerical stability; 155 nodes outside the giant component placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:18:16+00:00] base=fa2_2 status=OK
+  method: ForceAtlas2 (linlog + dissuade_hubs, shared xy, discrete z per layer3)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2, linlog=True, dissuade_hubs=True)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'linlog': True, 'dissuade_hubs': True}
+  seed: 42
+  weighting: unweighted
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes ring-placed per layer3 at z={'protein': -1262.9858642578124, 'bridge': 0.0, 'metabolite': 1262.9858642578124}
+
+[2026-09-25T08:18:18+00:00] base=fa2_3 status=OK
+  method: ForceAtlas2 (cross-layer down-weighted, shared xy, discrete z per layer3)
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=2, weight='fa_weight')
+  params: {'max_iter': 100, 'seed': 42, 'dim': 2, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes ring-placed per layer3 at z={'protein': -307.1149017333984, 'bridge': 0.0, 'metabolite': 307.1149017333984}
+
+[2026-09-25T08:18:22+00:00] base=fa23d_1 status=OK
+  method: ForceAtlas2 native 3D
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=3)
+  params: {'max_iter': 100, 'seed': 42, 'dim': 3}
+  seed: 42
+  weighting: unweighted
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-25T08:18:26+00:00] base=fa23d_2 status=OK
+  method: ForceAtlas2 native 3D, cross-layer down-weighted
+  call: nx.forceatlas2_layout(G, max_iter=100, seed=42, dim=3, weight='fa_weight')
+  params: {'max_iter': 100, 'seed': 42, 'dim': 3, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-25T08:18:28+00:00] base=fr3d_1 status=OK
+  method: Fruchterman-Reingold / spring, native 3D
+  call: nx.spring_layout(G, dim=3, seed=42)
+  params: {'dim': 3, 'seed': 42}
+  seed: 42
+  weighting: unweighted
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-25T08:18:30+00:00] base=fr3d_2 status=OK
+  method: Fruchterman-Reingold / spring, native 3D, cross-layer down-weighted
+  call: nx.spring_layout(G, dim=3, seed=42, weight='fa_weight')
+  params: {'dim': 3, 'seed': 42, 'weight': 'fa_weight'}
+  seed: 42
+  weighting: attraction: within=1.0, cross=0.2
+  nodes=900 edges=1689
+  fallback: 103 isolated nodes placed on a Fibonacci-sphere shell
+
+[2026-09-25T08:18:31+00:00] base=topobet_1 status=OK
+  method: Centrality-elevation hybrid: fa2_1 xy + z from betweenness_centrality
+  call: nx.betweenness_centrality(G)
+  params: {'reused_fa2_1_xy': True}
+  seed: 42
+  weighting: none
+  nodes=900 edges=1689
+  fallback: z = normalized betweenness_centrality, scaled to xy spread (2665.0719)
+
+[2026-09-25T08:20:42+00:00] base=n2vbal_1 status=OK
+  method: node2vec (p=1, q=1) embedding + UMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=1, q=1, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.15, metric='cosine', random_state=42)
+  params: {'p': 1, 'q': 1, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.15, 'umap_metric': 'cosine'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+
+[2026-09-25T08:22:33+00:00] base=n2vbfs_1 status=OK
+  method: node2vec (p=0.25, q=4) embedding + UMAP(3D), giant component only
+  call: Node2Vec(giant_subgraph, dimensions=64, walk_length=30, num_walks=200, p=0.25, q=4, seed=42, workers=1).fit(window=10, min_count=1, seed=42, workers=1) -> umap.UMAP(n_components=3, n_neighbors=15, min_dist=0.15, metric='cosine', random_state=42)
+  params: {'p': 0.25, 'q': 4, 'dimensions': 64, 'walk_length': 30, 'num_walks': 200, 'seed': 42, 'workers': 1, 'umap_n_neighbors': 15, 'umap_min_dist': 0.15, 'umap_metric': 'cosine'}
+  seed: 42
+  weighting: none (unweighted random walks)
+  nodes=900 edges=1689
+  fallback: 155 nodes outside the giant component (random walks can't leave a disconnected component) placed via Fibonacci-sphere shell, radius_factor=1.35
+

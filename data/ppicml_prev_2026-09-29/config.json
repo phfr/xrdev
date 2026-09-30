@@ -1,0 +1,169 @@
+{
+  "version": 1,
+  "exportType": "asdf10k-local-storage",
+  "dataset": "data",
+  "presets": {
+    "deff": {
+      "nodeSizeScaling": 2.016,
+      "nodeMinSize": 0.3,
+      "edgeWidthScaling": 2.5,
+      "edgeMinWidth": 2,
+      "nodeSizeAttribute": "degree_n",
+      "nodeColorAttribute": "type_simple_c",
+      "nodeMeshAttribute": "GO_BP_a",
+      "edgeWidthAttribute": "width_norm",
+      "edgeColorAttribute": "type_simple_c",
+      "edgeCutoff": 0,
+      "nodeSizeScalingMethod": "linear",
+      "nodeColorScalingMethod": "linear",
+      "edgeWidthScalingMethod": "linear",
+      "edgeColorScalingMethod": "linear",
+      "nodeMeshScalingMethod": "linear",
+      "edgeOpacity": 0.36,
+      "edgeBlending": "additive",
+      "edgeAlphaByWeight": true,
+      "edgeAlphaMin": 0.1,
+      "edgeAlphaMax": 0.8,
+      "edgeFadeDistance": 0.7,
+      "edgeDensityMode": false,
+      "edgeDensityScale": 2,
+      "highlightNodeSizeScale": 1.2,
+      "highlightEdgeWidthScale": 1.8,
+      "highlightNodesEnabled": true,
+      "highlightEdgesEnabled": true,
+      "subsetEdgesOnly": false,
+      "edgeSubsetMode": "induced",
+      "highlightEdgeOpacity": 4.7,
+      "fadeOtherEdgesEnabled": true,
+      "fadeOtherEdgesOpacity": 0.55,
+      "enabled": true,
+      "distance": 1200,
+      "enableDynamicResolution": false,
+      "targetFPS": 60,
+      "resolutionScale": 1,
+      "bloomMode": "selection",
+      "bloomStrength": 0.75,
+      "bloomRadius": 0.11,
+      "bloomThreshold": 0.5,
+      "cameraPosition": {
+        "x": 66.0209477858323,
+        "y": -100.18644729806721,
+        "z": 29.985916777734676
+      },
+      "cameraRotation": {
+        "x": 1.2799808217192066,
+        "y": 0.5631243090563652,
+        "z": 0.2336365244209862
+      }
+    }
+  },
+  "lastUsedPreset": "deff",
+  "subsetBuilderLibrary": [
+    {
+      "name": "fcgamma pathway",
+      "formula": "pathways_a has \"Fcgamma\""
+    },
+    {
+      "name": "leishmania pathway",
+      "formula": "pathways_a has \"Leishmania\""
+    },
+    {
+      "name": "coa bp",
+      "formula": "GO_BP_a has \"CoA\""
+    },
+    {
+      "name": "myopathy",
+      "formula": "orphanet_a has \"myopathy\""
+    }
+  ],
+  "subsetListLibrary": [],
+  "localStorage": {
+    "popout-subset-builder": "{\"left\":17,\"top\":779,\"width\":461,\"height\":236}",
+    "popout-scatter": "{\"left\":334,\"top\":0,\"width\":1142,\"height\":954}",
+    "popout-heatmap": "{\"left\":928.578125,\"top\":77,\"width\":737,\"height\":786}",
+    "popout-subset-table-2": "{\"left\":33,\"top\":720.1000366210938,\"width\":543,\"height\":202}",
+    "popout-layoutcalc": "{\"left\":33,\"top\":151.6999969482422,\"width\":552,\"height\":703}",
+    "popout-rwr": "{\"left\":1031,\"top\":108.5,\"width\":427,\"height\":559}",
+    "popout-upset": "{\"left\":1123,\"top\":66,\"width\":816,\"height\":458}",
+    "popout-enrichment": "{\"left\":17,\"top\":46,\"width\":631,\"height\":262}",
+    "popout-clustering": "{\"left\":54.98749923706055,\"top\":445.5,\"width\":369,\"height\":34}",
+    "popout-aggregated-network": "{\"left\":33,\"top\":304.6000061035156,\"width\":739,\"height\":650}",
+    "structure3d-popup-bounds": "{\"left\":679.5875244140625,\"top\":426.1000061035156,\"width\":530,\"height\":385}",
+    "popout-subset-list": "{\"left\":17,\"top\":561,\"width\":357,\"height\":188}",
+    "graphSettingsPresets_data": "{\"dominant_origin\":{\"nodeSizeScaling\":0.3305,\"nodeMinSize\":0.001,\"edgeWidthScaling\":2.5,\"edgeMinWidth\":2,\"nodeSizeAttribute\":\"proteinids_n\",\"nodeColorAttribute\":\"dominant_origin_c\",\"nodeMeshAttribute\":\"degree_n\",\"edgeWidthAttribute\":\"width_norm\",\"edgeColorAttribute\":\"origins\",\"edgeCutoff\":1,\"nodeSizeScalingMethod\":\"linear\",\"nodeColorScalingMethod\":\"linear\",\"edgeWidthScalingMethod\":\"linear\",\"edgeColorScalingMethod\":\"linear\",\"nodeMeshScalingMethod\":\"linear\",\"edgeOpacity\":0.06,\"edgeBlending\":\"additive\",\"edgeAlphaByWeight\":true,\"edgeAlphaMin\":0.1,\"edgeAlphaMax\":0.8,\"edgeFadeDistance\":0.7,\"edgeDensityMode\":false,\"edgeDensityScale\":2,\"highlightNodeSizeScale\":1,\"highlightEdgeWidthScale\":0.2,\"highlightNodesEnabled\":true,\"highlightEdgesEnabled\":false,\"enabled\":true,\"distance\":1200,\"enableDynamicResolution\":false,\"targetFPS\":60,\"resolutionScale\":1,\"bloomMode\":\"selection\",\"bloomStrength\":0.95,\"bloomRadius\":0.15,\"bloomThreshold\":0.54,\"cameraPosition\":{\"x\":23.682539903899862,\"y\":13.97379587487085,\"z\":-11.099386756257063},\"cameraRotation\":{\"x\":-2.242052012940126,\"y\":0.9250388366830848,\"z\":1.2101228440754372}},\"number of origins\":{\"nodeSizeScaling\":0.453,\"nodeMinSize\":0.001,\"edgeWidthScaling\":2.5,\"edgeMinWidth\":2,\"nodeSizeAttribute\":\"degree_n\",\"nodeColorAttribute\":\"origins_n\",\"nodeMeshAttribute\":\"degree_n\",\"edgeWidthAttribute\":\"width_norm\",\"edgeColorAttribute\":\"origins\",\"edgeCutoff\":1,\"nodeSizeScalingMethod\":\"linear\",\"nodeColorScalingMethod\":\"linear\",\"edgeWidthScalingMethod\":\"linear\",\"edgeColorScalingMethod\":\"linear\",\"nodeMeshScalingMethod\":\"linear\",\"edgeOpacity\":0.06,\"edgeBlending\":\"additive\",\"edgeAlphaByWeight\":true,\"edgeAlphaMin\":0.1,\"edgeAlphaMax\":0.8,\"edgeFadeDistance\":0.7,\"edgeDensityMode\":false,\"edgeDensityScale\":2,\"highlightNodeSizeScale\":1,\"highlightEdgeWidthScale\":0.2,\"highlightNodesEnabled\":true,\"highlightEdgesEnabled\":false,\"enabled\":true,\"distance\":1200,\"enableDynamicResolution\":false,\"targetFPS\":60,\"resolutionScale\":1,\"bloomMode\":\"selection\",\"bloomStrength\":0.95,\"bloomRadius\":0.15,\"bloomThreshold\":0.54,\"cameraPosition\":{\"x\":20.829688514563674,\"y\":14.513936440315232,\"z\":-19.08208125212847},\"cameraRotation\":{\"x\":-2.4913384890506323,\"y\":0.7153214502665095,\"z\":0.5518166214066031}},\"deff\":{\"nodeSizeScaling\":2.016,\"nodeMinSize\":0.3,\"edgeWidthScaling\":2.5,\"edgeMinWidth\":2,\"nodeSizeAttribute\":\"degree_n\",\"nodeColorAttribute\":\"type_simple_c\",\"nodeMeshAttribute\":\"GO_BP_a\",\"edgeWidthAttribute\":\"width_norm\",\"edgeColorAttribute\":\"type_simple_c\",\"edgeCutoff\":0,\"nodeSizeScalingMethod\":\"linear\",\"nodeColorScalingMethod\":\"linear\",\"edgeWidthScalingMethod\":\"linear\",\"edgeColorScalingMethod\":\"linear\",\"nodeMeshScalingMethod\":\"linear\",\"edgeOpacity\":0.36,\"edgeBlending\":\"additive\",\"edgeAlphaByWeight\":true,\"edgeAlphaMin\":0.1,\"edgeAlphaMax\":0.8,\"edgeFadeDistance\":0.7,\"edgeDensityMode\":false,\"edgeDensityScale\":2,\"highlightNodeSizeScale\":1.2,\"highlightEdgeWidthScale\":1.8,\"highlightNodesEnabled\":true,\"highlightEdgesEnabled\":true,\"subsetEdgesOnly\":false,\"edgeSubsetMode\":\"induced\",\"highlightEdgeOpacity\":4.7,\"fadeOtherEdgesEnabled\":true,\"fadeOtherEdgesOpacity\":0.55,\"enabled\":true,\"distance\":1200,\"enableDynamicResolution\":false,\"targetFPS\":60,\"resolutionScale\":1,\"bloomMode\":\"selection\",\"bloomStrength\":0.75,\"bloomRadius\":0.11,\"bloomThreshold\":0.5,\"cameraPosition\":{\"x\":66.0209477858323,\"y\":-100.18644729806721,\"z\":29.985916777734676},\"cameraRotation\":{\"x\":1.2799808217192066,\"y\":0.5631243090563652,\"z\":0.2336365244209862}}}",
+    "settings-window": "{\"left\":1404,\"top\":43,\"width\":362,\"height\":482}",
+    "popout-multi-meta-network": "{\"left\":1422,\"top\":578,\"width\":630,\"height\":620}",
+    "popout-distribution": "{\"left\":0,\"top\":225,\"width\":540,\"height\":511}",
+    "popout-subset-table": "{\"left\":670,\"top\":912,\"width\":1078,\"height\":221}",
+    "lastUsedPreset_data": "deff"
+  },
+  "openWindows": [
+    {
+      "type": "subset-builder",
+      "storageKey": "popout-subset-builder",
+      "title": "Subset builder",
+      "config": {
+        "formula": "GO_BP_a has \"CoA\"",
+        "libraryVisible": true,
+        "editorVisible": true,
+        "bounds": {
+          "left": 17,
+          "top": 779,
+          "width": 461,
+          "height": 236
+        }
+      }
+    },
+    {
+      "type": "subset-list",
+      "storageKey": "popout-subset-list",
+      "title": "subset (0)",
+      "config": {
+        "namesText": "",
+        "libraryVisible": true,
+        "bounds": {
+          "left": 17,
+          "top": 561,
+          "width": 357,
+          "height": 188
+        }
+      }
+    },
+    {
+      "type": "subset-table",
+      "storageKey": "popout-subset-table",
+      "title": "Subset",
+      "config": {
+        "selectedAttributes": [
+          "label",
+          "name",
+          "type_a",
+          "pathways_a",
+          "Phenotype_Ontology_a",
+          "degree_n",
+          "type_simple_c"
+        ],
+        "sortKey": "type_a",
+        "sortDir": "asc",
+        "columnWidths": {},
+        "inlineView": false,
+        "bounds": {
+          "left": 670,
+          "top": 912,
+          "width": 1078,
+          "height": 221
+        }
+      }
+    }
+  ],
+  "nodeLayout": "fa2_1",
+  "edgeHighlightSettings": {
+    "subsetEdgesOnly": false,
+    "edgeSubsetMode": "induced",
+    "highlightEdgesEnabled": true,
+    "highlightEdgeWidthScale": 1.8,
+    "highlightEdgeOpacity": 4.7,
+    "fadeOtherEdgesEnabled": true,
+    "fadeOtherEdgesOpacity": 0.55
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "exportType": "asdf10k-local-storage",
+  "dataset": "data",
+  "presets": {},
+  "lastUsedPreset": "",
+  "subsetBuilderLibrary": [],
+  "subsetListLibrary": [],
+  "openWindows": [
+    {
+      "type": "distribution",
+      "storageKey": "popout-distribution",
+      "title": "Distributions",
+      "config": {
+        "selectedColumn": "type_simple_c",
+        "rot90": true,
+        "kvUseAdaptive": true,
+        "useGlobal": true,
+        "frozen": false,
+        "bounds": {
+          "left": 75,
+          "top": 77,
+          "width": 484,
+          "height": 424
+        }
+      }
+    },
+    {
+      "type": "subset-list",
+      "storageKey": "popout-subset-list",
+      "title": "subset (21)",
+      "config": {
+        "namesText": "16 31 57 89 114 227 234 275 305 345 399 439 486 507 566 632 653 807 817 818 885",
+        "libraryVisible": true,
+        "bounds": {
+          "left": 90,
+          "top": 556,
+          "width": 370,
+          "height": 357
+        }
+      }
+    },
+    {
+      "type": "upset",
+      "storageKey": "popout-upset",
+      "title": "UpSet",
+      "config": {
+        "selectedAttribute": "type_a",
+        "numericAttribute": "",
+        "useGlobal": true,
+        "frozen": false,
+        "bounds": {
+          "left": 791,
+          "top": 613,
+          "width": 951,
+          "height": 430
+        }
+      }
+    }
+  ],
+  "nodeLayout": "cumap",
+  "edgeHighlightSettings": {
+    "subsetEdgesOnly": true,
+    "edgeSubsetMode": "induced",
+    "highlightEdgesEnabled": false,
+    "highlightEdgeWidthScale": 0.2,
+    "highlightEdgeOpacity": 1,
+    "fadeOtherEdgesEnabled": false,
+    "fadeOtherEdgesOpacity": 0.3
+  }
+}
