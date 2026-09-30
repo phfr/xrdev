@@ -1,9 +1,0 @@
-id	name	cluster_c	type_a	degree_n	score_n	x	y	z
-0	A	C0	protein	5	0.9	0	0	0
-1	B	C0	transcript	4	0.6	1	0.5	0
-2	C	C0	metabolite	4	0.3	0.5	1	0.3
-3	D	C0	bridge	3	0.1	-0.8	0.4	-0.5
-4	E	C0	protein	3	0.75	0.2	-0.9	0.6
-5	F	C1	protein	2	0.5	30	10	-10
-6	G	C1	transcript	2	0.4	-25	20	15
-7	H	C2	bridge	2	0.8	10	-30	25
