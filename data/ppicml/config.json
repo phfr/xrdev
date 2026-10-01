@@ -91,8 +91,15 @@
   },
   "subsetListLibrary": [
     {
-      "name": "demo subset",
-      "namesText": "CR1_p CR1_t C1QC_t Oxaloacetate_m Pyruvate_m Malate_m Fumarate_m"
-    }
+      "name": "Eicosanoid synthesis & complement terminal pathway",
+      "namesText": "ALOX15B_t Arachidonic_acid_m C1QC_t 2-Lysophosphatidylcholine_m LCAT_p LPCAT2_t RAB35_p CBR3_p ZNF277_p PDCD2_p CNTFR_p C9_p LIFR_p HAS3_t GAL_t HPGDS_p Prostaglandin_H2_m LIF_p APOE_p TFPI2_t PRRX1_t PTGES_t CD59_p CDH5_t PTGDS_t CCR2_t Prostaglandin_E2_m MBOAT2_t COL4A5_t"
+    },
+    {
+      "name": "CR1 bridging into TCA-cycle energy metabolism ",
+      "namesText": "CR1_p FCN3_p FH_p Fumarate_m MDH2_p DBNL_p CMAS_p OXCT1_t Succinate_m ME3_t Malate_m PC_p WARS1_p NANS_t N-Acetylneuraminic_acid_m WARS1_t Oxaloacetate_m Tryptophan_m 91373_t FAHD2B_t Pyruvate_m"
+    },
+    {
+      "name": "complement alternative pathway & CYP450/ceramide branch ",
+      "namesText": "CERS6_t Sphingosine_m ATP10D_t 20-HETE_m CYP2U1_t CYP2U1_p LGR4_p DPY19L3_p RSPO3_p C8B_p CFHR1_p CFHR2_p CFB_p C5_p CFHR5_p CFP_p ITGAM_p TTYH2_p EXD2_t VEZT_p C3AR1_p CERS5_p C5AR1_p" }
   ]
 }
