@@ -71,5 +71,28 @@
     "highlightEdgeOpacity": 5.8,
     "fadeOtherEdgesEnabled": true,
     "fadeOtherEdgesOpacity": 0.85
-  }
+  },
+  "presentationMode": {
+    "startInPresentationMode": true,
+    "menuItems": [
+      "windows.distribution",
+      "windows.enrichment",
+      "windows.subsetList",
+      "subset.expandOneHop",
+      "subset.connect",
+      "subset.isolate",
+      "subset.clear",
+      "layout.nodeLayout",
+      "layout.next",
+      "layout.prev",
+      "nodes.colorAttribute",
+      "nodes.sizeAttribute"
+    ]
+  },
+  "subsetListLibrary": [
+    {
+      "name": "demo subset",
+      "namesText": "CR1_p CR1_t C1QC_t Oxaloacetate_m Pyruvate_m Malate_m Fumarate_m"
+    }
+  ]
 }
