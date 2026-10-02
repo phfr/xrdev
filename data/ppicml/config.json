@@ -100,6 +100,9 @@
     },
     {
       "name": "complement alternative pathway & CYP450/ceramide branch ",
-      "namesText": "CERS6_t Sphingosine_m ATP10D_t 20-HETE_m CYP2U1_t CYP2U1_p LGR4_p DPY19L3_p RSPO3_p C8B_p CFHR1_p CFHR2_p CFB_p C5_p CFHR5_p CFP_p ITGAM_p TTYH2_p EXD2_t VEZT_p C3AR1_p CERS5_p C5AR1_p" }
-  ]
+      "namesText": "CERS6_t Sphingosine_m ATP10D_t 20-HETE_m CYP2U1_t CYP2U1_p LGR4_p DPY19L3_p RSPO3_p C8B_p CFHR1_p CFHR2_p CFB_p C5_p CFHR5_p CFP_p ITGAM_p TTYH2_p EXD2_t VEZT_p C3AR1_p CERS5_p C5AR1_p"
+    }
+  ],
+  "xrTooltipMaxDistanceMeters": 1,
+  "xrToggleMaxDistanceMeters": 2
 }
