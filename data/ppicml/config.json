@@ -113,7 +113,10 @@
     "menuItems": [
       "windows.distribution",
       "windows.enrichment",
+      "windows.heatmap",
       "windows.subsetList",
+      "windows.rwr",
+      "windows.clustering",
       "subset.expandOneHop",
       "subset.connect",
       "subset.isolate",
@@ -132,7 +135,8 @@
           "type_simple_c"
         ]
       },
-      "nodes.sizeScaling"
+      "nodes.sizeScaling",
+      "edges.colorAttribute"
     ]
   },
   "subsetListLibrary": [
@@ -219,5 +223,8 @@
   },
   "ar": {
     "showBoxLines": false
+  },
+  "metadataCache": {
+    "enabled": true
   }
 }
